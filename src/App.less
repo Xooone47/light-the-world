@@ -1,0 +1,45 @@
+.app-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #1a1a1a;
+
+  .left-panel {
+    flex: 3;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242424;
+    border-right: 1px solid #333;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .right-panel {
+    flex: 1;
+    height: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    color: #fff;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+    
+    .left-panel {
+      flex: 2;
+      border-right: none;
+      border-bottom: 1px solid #333;
+    }
+    
+    .right-panel {
+      flex: 1;
+    }
+  }
+}
