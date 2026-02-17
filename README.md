@@ -44,6 +44,17 @@ Build the project for production:
 ```bash
 pnpm build
 ```
+
+### Deploy to GitHub Pages
+
+Deploy the app to GitHub Pages:
+
+```bash
+pnpm gh-deploy
+```
+
+Or push to main branch to trigger GitHub Actions deployment.
+
 ## License
 
 MIT
