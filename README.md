@@ -55,6 +55,8 @@ pnpm gh-deploy
 
 Or push to main branch to trigger GitHub Actions deployment.
 
+Visit the live demo: https://xooone47.github.io/light-the-world/
+
 ## License
 
 MIT
